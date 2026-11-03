@@ -430,13 +430,25 @@
         "uuid": "0eb648fd-0f39-4e25-86e7-64c0422896ea"
       }
     ],
-    "used_designators": "C1,R1,U1-3",
+    "used_designators": "#PWR1,C1,R1,U1-3",
     "variants": []
   },
   "sheets": [
     [
       "0eb648fd-0f39-4e25-86e7-64c0422896ea",
       "34654_microcontroller"
+    ],
+    [
+      "69377305-3fdd-4994-8ac3-c79211df3207",
+      "power_supply"
+    ],
+    [
+      "73a0e185-ab54-4030-b6c0-8550330e324e",
+      "MCU"
+    ],
+    [
+      "33750dd0-4aa9-4306-81a6-7701025d2c26",
+      "ADC"
     ]
   ],
   "text_variables": {},
