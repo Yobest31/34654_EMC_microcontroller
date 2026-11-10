@@ -2486,7 +2486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08759112-0d07-4c22-9706-bbada00e3b0f")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 118.11 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,6 +2548,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R12")
 					(unit 1)
 				)
@@ -2566,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106cdd9d-160d-4be4-8138-da128bee045c")
-		(property "Reference" "C31"
+		(property "Reference" "C21"
 			(at 144.78 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,6 +2636,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C31")
 					(unit 1)
 				)
@@ -2648,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aaa5d25-2576-4d79-a110-cef863ba87bc")
-		(property "Reference" "C32"
+		(property "Reference" "C19"
 			(at 130.81 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,6 +2724,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C32")
 					(unit 1)
 				)
@@ -2730,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eac1b96-3eca-40e0-acc5-ae06caea6189")
-		(property "Reference" "C30"
+		(property "Reference" "C20"
 			(at 140.97 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,6 +2810,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C30")
 					(unit 1)
 				)
@@ -2810,7 +2834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47da9dca-addf-4460-af8d-65cddb148a80")
-		(property "Reference" "C35"
+		(property "Reference" "C24"
 			(at 144.78 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,6 +2898,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C35")
 					(unit 1)
 				)
@@ -2892,7 +2922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b78b14a-9a51-4cd9-83ba-2240bb345726")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR033"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2952,6 +2982,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -2970,7 +3006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5e71da-3958-40f4-bec4-dd3a4e534193")
-		(property "Reference" "C26"
+		(property "Reference" "C28"
 			(at 232.41 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,6 +3068,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C26")
 					(unit 1)
 				)
@@ -3050,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56bb4368-ad7d-4e98-9e81-a0ed4ec3b962")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 133.35 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,6 +3154,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R17")
 					(unit 1)
 				)
@@ -3130,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a7e8624-31da-4deb-bc45-e5f30d88d911")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 118.11 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,6 +3240,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R16")
 					(unit 1)
 				)
@@ -3209,7 +3263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac044dd-1f99-41a4-898d-bd63bb2d1b88")
-		(property "Reference" "C34"
+		(property "Reference" "C23"
 			(at 144.526 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,6 +3325,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C34")
 					(unit 1)
 				)
@@ -3289,7 +3349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "648f07e6-0fd2-4546-b77a-167733d10c59")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR032"
 			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3350,6 +3410,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -3368,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f27ae8-25a9-4a29-96ff-99acac75cdf5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR028"
 			(at 82.55 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3429,6 +3495,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -3513,6 +3585,12 @@
 					(unit 1)
 				)
 			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3527,7 +3605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87e1a242-34bd-4b2e-8f17-84519460c765")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 219.71 37.465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,6 +3667,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R18")
 					(unit 1)
 				)
@@ -3607,7 +3691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ecde2d-981f-47cf-97c3-02d724145e59")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 118.11 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3669,6 +3753,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R10")
 					(unit 1)
 				)
@@ -3687,7 +3777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a8482a-1db0-4f94-9191-050787d30c37")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 190.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,6 +4039,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "U3")
 					(unit 1)
 				)
@@ -3967,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8baa7878-5eb1-4eb0-b256-d47d0ac5a50d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR031"
 			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4028,6 +4124,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -4046,7 +4148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8ea0a5-af50-4e4e-843f-c0d55564d331")
-		(property "Reference" "C33"
+		(property "Reference" "C22"
 			(at 144.78 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,6 +4212,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C33")
 					(unit 1)
 				)
@@ -4128,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "901f26b2-7414-4f64-b4b6-8c9226c9f4d7")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 219.71 48.895 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,6 +4298,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R19")
 					(unit 1)
 				)
@@ -4208,7 +4322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a40b4c-d4cc-4acd-9607-ff311c3361f8")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 219.71 71.755 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,6 +4384,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R21")
 					(unit 1)
 				)
@@ -4288,7 +4408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f58140-52a7-4b4b-9daa-53cb88a5a355")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 232.41 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,6 +4470,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C25")
 					(unit 1)
 				)
@@ -4368,7 +4494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc28756-6267-4aa0-90c6-6e5b4a9c3a32")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4429,6 +4555,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -4447,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec0a9e5-1d15-45af-8505-4e9f696991be")
-		(property "Reference" "C36"
+		(property "Reference" "C18"
 			(at 129.54 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,6 +4643,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C36")
 					(unit 1)
 				)
@@ -4613,6 +4751,12 @@
 					(unit 1)
 				)
 			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4627,7 +4771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3bd5898-3847-4cef-9e1d-90cea4e48643")
-		(property "Reference" "C27"
+		(property "Reference" "C29"
 			(at 232.41 59.055 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,6 +4833,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C27")
 					(unit 1)
 				)
@@ -4707,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d3512f-10ef-44ea-97fa-222b76f98c60")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 133.35 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,6 +4919,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R11")
 					(unit 1)
 				)
@@ -4787,7 +4943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9271ae-6320-4deb-b460-41122410aef4")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 166.37 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,6 +5005,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C21")
 					(unit 1)
 				)
@@ -4867,7 +5029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10b3da0-68e4-4f65-9984-f0ee1f2f7c58")
-		(property "Reference" "C37"
+		(property "Reference" "C25"
 			(at 148.59 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,6 +5093,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C37")
 					(unit 1)
 				)
@@ -4949,7 +5117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b220ba-dbe9-4c8e-af77-9bb0a24c2790")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 118.11 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,6 +5179,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R14")
 					(unit 1)
 				)
@@ -5029,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de963230-d39f-4c16-ae0f-9ada96583984")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR030"
 			(at 140.97 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5090,6 +5264,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -5108,7 +5288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49e450e-0646-4972-8216-e0d79975abe0")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 219.71 60.325 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,6 +5350,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R20")
 					(unit 1)
 				)
@@ -5188,7 +5374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e55b4904-7d37-4558-a4ad-19f2ff0ee6ed")
-		(property "Reference" "C28"
+		(property "Reference" "C30"
 			(at 232.41 70.485 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5250,6 +5436,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "C28")
 					(unit 1)
 				)
@@ -5268,7 +5460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecb67eb7-3776-4f6d-990a-8a1c658c559c")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 133.35 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,6 +5522,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "R15")
 					(unit 1)
 				)
@@ -5348,7 +5546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8e3846-a9bb-48bb-bf22-a6a993c44ef9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5409,6 +5607,12 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -5427,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b63eee-0c9d-458f-83a8-09e7748be823")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR034"
 			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5438,14 +5642,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 171.45 52.07 0)
+		(property "Value" "GND"
+			(at 173.99 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5487,10 +5692,21 @@
 		(instances
 			(project "34654_microcontroller"
 				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/33750dd0-4aa9-4306-81a6-7701025d2c26"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+			(project "adc"
+				(path "/259cd1cc-0da5-4078-a175-9200799360ef"
 					(reference "#PWR09")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
