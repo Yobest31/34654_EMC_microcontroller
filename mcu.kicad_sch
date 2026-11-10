@@ -7653,7 +7653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 157.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 69.85 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10895,7 +10895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 242.57 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -11403,7 +11403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CG0603MLC-05E:VARC1608X56N"
+		(property "Footprint" "MyParts:VARC1608X56N"
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12069,7 +12069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MF-MSMF050-2:FUSM4632X85"
+		(property "Footprint" "MyParts:FUSM4632X85"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)

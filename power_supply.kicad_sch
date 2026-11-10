@@ -1979,6 +1979,12 @@
 		(uuid "12bbbc04-14fa-4db4-95f5-2a284ead7064")
 	)
 	(junction
+		(at 204.47 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b699f57-6e4c-476d-bb17-d5babbb451ac")
+	)
+	(junction
 		(at 101.6 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2997,8 +3003,9 @@
 				)
 			)
 		)
-		(property "Footprint" "LT8636EV-PBF:LQFN-20_ADI"
+		(property "Footprint" "MyParts:QFN50P400X300X94-25N"
 			(at 135.636 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,6 +3805,84 @@
 			(project "power_supply"
 				(path "/2cd25575-b957-4180-8b87-ff4d7821631a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a64a35-2659-42bb-a0b1-f3688a44949a")
+		(property "Reference" "#PWR036"
+			(at 204.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb1d1d7c-6197-4aea-92b8-a4f0740a389a")
+		)
+		(instances
+			(project "34654_microcontroller"
+				(path "/0eb648fd-0f39-4e25-86e7-64c0422896ea/69377305-3fdd-4994-8ac3-c79211df3207"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
